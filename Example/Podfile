@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SLAlipaySDK_NO_UTDID_Example' do
+  pod 'SLAlipaySDK_NO_UTDID', :path => '../'
+
+  target 'SLAlipaySDK_NO_UTDID_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
