@@ -1,0 +1,6 @@
+framework module Pods_SLAlipaySDK_NO_UTDID_Tests {
+  umbrella header "Pods-SLAlipaySDK_NO_UTDID_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

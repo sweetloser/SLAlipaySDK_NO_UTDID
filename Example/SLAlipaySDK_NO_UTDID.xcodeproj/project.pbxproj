@@ -305,7 +305,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SLAlipaySDK_NO_UTDID_Example/Pods-SLAlipaySDK_NO_UTDID_Example-resources.sh",
-				"${PODS_ROOT}/../../SLAlipaySDK_NO_UTDID/AlipaySDK.bundle",
+				"${PODS_ROOT}/../../SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.11.15/AlipaySDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

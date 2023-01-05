@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SLAlipaySDK_NO_UTDID'
-  s.version          = '15.8.03.3'
+  s.version          = '15.8.11.15'
   s.summary          = 'A short description of SLAlipaySDK_NO_UTDID.'
 
 # This description is used to generate tags and improve search results.
@@ -31,8 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.frameworks            = 'SystemConfiguration', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation', 'CFNetwork', 'CoreMotion', 'WebKit'
   s.libraries             = 'z', 'c++'
-  s.resource              = 'SLAlipaySDK_NO_UTDID/AlipaySDK.bundle'
-  s.vendored_frameworks   = 'SLAlipaySDK_NO_UTDID/AlipaySDK.framework'
+  s.resource              = 'SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.11.15/AlipaySDK.bundle'
+  s.vendored_frameworks   = 'SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.11.15/AlipaySDK.framework'
   s.requires_arc          = true
   s.dependency 'UTDID'
   
