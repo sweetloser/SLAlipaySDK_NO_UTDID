@@ -97,10 +97,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.11.15/AlipaySDK.bundle"
+  install_resource "${PODS_ROOT}/../../SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.35.6/AlipaySDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.11.15/AlipaySDK.bundle"
+  install_resource "${PODS_ROOT}/../../SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.35.6/AlipaySDK.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

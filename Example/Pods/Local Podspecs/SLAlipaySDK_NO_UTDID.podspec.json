@@ -1,6 +1,6 @@
 {
   "name": "SLAlipaySDK_NO_UTDID",
-  "version": "15.8.11.15",
+  "version": "15.8.35.6",
   "summary": "A short description of SLAlipaySDK_NO_UTDID.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/sweetloser/SLAlipaySDK_NO_UTDID",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sweetloser/SLAlipaySDK_NO_UTDID.git",
-    "tag": "15.8.11.15"
+    "tag": "15.8.35.6"
   },
   "social_media_url": "https://sweetloser.com",
   "platforms": {
@@ -35,13 +35,11 @@
     "z",
     "c++"
   ],
-  "resources": "SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.11.15/AlipaySDK.bundle",
-  "vendored_frameworks": "SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.11.15/AlipaySDK.framework",
+  "resources": "SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.35.6/AlipaySDK.bundle",
+  "vendored_frameworks": "SLAlipaySDK_NO_UTDID/AlipaySDK-15.8.35.6/AlipaySDK.framework",
   "requires_arc": true,
   "dependencies": {
-    "UTDID": [
-
-    ]
+    "UTDID": []
   },
   "pod_target_xcconfig": {
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
